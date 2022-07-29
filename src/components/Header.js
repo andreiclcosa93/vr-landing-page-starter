@@ -7,18 +7,18 @@ import Nav from './Nav';
 //import icons
 import {HiMenu} from 'react-icons/hi';
 
-const Header = () => {
+const Header = ({setNavMobile}) => {
   return <header className='py-6'>
     <div className="container mx-auto">
-        <div>
+        <div className='flex items-center justify-between'>
           {/* logo */}
           <a href="/" >
-            <img src={Logo} alt=''/>
+            <img className='h-[30px]' src={Logo} alt=''/>
           </a>
           {/* nav */}
           <Nav />
           {/* nav bar mobile */}
-          <HiMenu className='lg:hidden text-3x1 text-white cursor-pointer'/>
+          <HiMenu onclick={() => setNavMobile(true)} className='lg:hidden text-3x1 text-white cursor-pointer'/>
         </div>
     </div>
   </header>;
