@@ -6,6 +6,7 @@ import Banner from './components/Banner';
 import Header from './components/Header';
 import NavMobile from './components/NavMobile';
 import Experience from './components/Experience';
+import Video from './components/Video';
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(true);
@@ -18,6 +19,7 @@ const App = () => {
         <NavMobile setNavMobile={setNavMobile}/>
       </div>
       <Experience />
+      <Video />
     </div>
   );
 };
