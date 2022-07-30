@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import Banner from './components/Banner';
 import Header from './components/Header';
 import NavMobile from './components/NavMobile';
+import Experience from './components/Experience';
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(true);
@@ -16,6 +17,7 @@ const App = () => {
       <div className={`${navMobile ? 'right-0' : '-rightfull'} fixed top-0 bottom-0 w-48 transition-all`}>
         <NavMobile setNavMobile={setNavMobile}/>
       </div>
+      <Experience />
     </div>
   );
 };
