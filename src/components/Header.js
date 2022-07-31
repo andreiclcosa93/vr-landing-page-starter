@@ -8,7 +8,7 @@ import Nav from './Nav';
 import {HiMenu} from 'react-icons/hi';
 
 const Header = ({setNavMobile}) => {
-  return <header className='py-6'>
+  return <header className='py-6' data-aos='fade-down' data-aos-duration='1000' data-aos-delay='100'>
     <div className="container mx-auto">
         <div className='flex items-center justify-between'>
           {/* logo */}

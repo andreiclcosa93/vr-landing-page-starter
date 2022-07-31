@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 //import components
 
@@ -11,8 +11,22 @@ import Headsets from './components/Headsets';
 import Testimonial from './components/Testimonial';
 import Explore from './components/Explore';
 
+//import aos (animated on scroll)
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
+
+  //aos initializations
+  useEffect(()=> {
+    Aos.init({
+        duration: 700,
+        delay: 400,
+    });
+  });
+
   return ( 
     <div className='relative overflow-hidden before:w-[600px] before:h-[200px] before:bg-circle before:bg-no-repeat before:absolute before-top-16 before:left-[600px] before:hidden before:lg:flex'>
       <Header setNavMobile={setNavMobile}/>

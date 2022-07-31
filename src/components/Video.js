@@ -10,7 +10,7 @@ import {BsPlayCircleFill} from 'react-icons/bs';
 const Video = () => {
   const [isOpen, setIsOpen] = useState(false);
   return ( 
-    <div className='bg-[#534686]/30 py-6'>
+    <div className='bg-[#534686]/30 py-6' data-aos='fade-up' data-aos-delay='1000' data-aos-offset='200'>
       <div className='container mx-auto'>
         <div className='flex flex-col justify-center items-center text-center lg:flex-row lg:justify-between'>
           <h3 className='text-3xl font-semibold mb-8 lg:mb-0'>Awespme experience with virtual reality world</h3>

@@ -5,8 +5,8 @@ import TestimonialSlider from './TestimonialSlider';
 
 const Testimonial = () => {
   return ( 
-    <secction className='mb-64 lg:mb-48'>
-      <div className='container mx-auto'>
+    <secction className='mb-64 lg:mb-48' >
+      <div className='container mx-auto' data-aos='fade-down' data-aos-delay='1000' data-aos-offset='200'>
         <div className='bg-purple-400/10 max-h-[400pxp] p-12 rounded-lg'>
           <div className='text-center'>
             <h2 className='text-3xl font-bold mb-9'>What our clients say</h2>

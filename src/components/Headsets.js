@@ -15,7 +15,7 @@ const Headsets = () => {
         {/* grid */}
         <div className='grid gap-y-4 lg:grid-cols-2 lg:gap-9'>
           {/* item */}
-          <div className='relative'>
+          <div className='relative' data-aos='fade-right' data-aos-delay='1000' data-aos-offset='200'>
             <img src={Headset1} alt='' />
               <div className='absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
                 <h4 className='font-semibold mb-2'>Metaverse</h4>
@@ -23,7 +23,7 @@ const Headsets = () => {
               </div>
           </div>
 
-          <div className='relative'>
+          <div className='relative' data-aos='fade-up' data-aos-delay='1000' data-aos-offset='200'>
             <img src={Headset2} alt='' />
               <div className='absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
                 <h4 className='font-semibold mb-2'>Design</h4>
@@ -31,7 +31,7 @@ const Headsets = () => {
               </div>
           </div>
 
-          <div className='relative'>
+          <div className='relative' data-aos='fade-right' data-aos-delay='1000' data-aos-offset='200'>
             <img src={Headset3} alt='' />
               <div className='absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
                 <h4 className='font-semibold mb-2'>Cloud</h4>
@@ -39,7 +39,7 @@ const Headsets = () => {
               </div>
           </div>
 
-          <div className='relative'>
+          <div className='relative' data-aos='fade-up' data-aos-delay='1000' data-aos-offset='200'>
             <img src={Headset4} alt='' />
               <div className='absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
                 <h4 className='font-semibold mb-2'>Technology</h4>
