@@ -18,7 +18,7 @@ const Header = ({setNavMobile}) => {
           {/* nav */}
           <Nav />
           {/* nav bar mobile */}
-          <HiMenu onclick={() => setNavMobile(true)} className='lg:hidden text-3x1 text-white cursor-pointer'/>
+          <HiMenu onclick={() => setNavMobile(true)} className='lg:hidden text-3xl text-white cursor-pointer'/>
         </div>
     </div>
   </header>;
